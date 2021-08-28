@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=PT+Serif:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'PT Serif', serif;
+}
+h1,h2,h3,h4,h5,h6{
+   
+}
+img{
+    width: 100%;
+}
+.fix::before, .fix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ff0808;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+/* area css */
+.header-area{
+    background-color: #ddd;
+}
+.area{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+  
+    padding:10px;
+   
+    background: #ddd;
+}
+
+.header .logo{
+    width: 200px;
+    float: left;
+}
+.header .logo a{}
+.header .manu{
+    float: right;
+    width: 720px;
+    margin-top: 7px;
+}
+.header .manu ul{
+    text-align: right;
+    margin-top: -6px;
+}
+.header .manu ul li{
+    display: inline-block;
+    position: relative;
+}
+.header .manu ul li::before{
+    content: "";
+    position: absolute;
+    background: rgb(36, 180, 55);
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+}
+.header .manu ul li:hover::before{
+    transition: 0.5s ease-in-out;
+    width: 50%;
+}
+.header .manu ul li::after{
+    content: "";
+    position: absolute;
+    background: rgb(36, 180, 55);
+    width: 0%;
+    height: 2px;
+    bottom: -5px;
+    right:0;
+}
+.header .manu ul li:hover::after{
+    transition: 0.5s ease-in-out;
+    width: 50%;
+}
+.header .manu ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    font-size: 20px;
+    color: #333;
+    /* transition: 0.3s ease-in-out; */
+}
+.header .manu ul li a:hover{
+    transition: 0.5s linear;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #fff;
+}
+.banner img{
+    vertical-align: middle;
+}
+.about-services{
+    background-color: #ddd;
+}
+.services{}
+.services .tittle{
+    text-align: center;
+    color: #fff;
+    padding: 30px 0;
+}
+.services .tittle h2{
+    font-size: 36px;
+    text-transform: capitalize;
+    color: black;
+}
+.services .service{
+    margin-top: 5px;
+}
+.services .service .single-service{
+    width: 311px;
+    float: left;
+    margin-left: 13px;
+    margin-right: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    padding: 9px;
+}
+
+.single-service h4{
+     text-align: center;
+     font-size: 25px;
+     margin: 20px;
+     padding: 10px;
+     line-height: 1.4;
+     text-transform: capitalize;
+}
+
+.single-service img{
+    width: 90%;
+    margin: auto 10px;
+}
+.single-service p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-align: justify;
+}
+.single-service a{
+   
+margin: auto 60px;
+   
+margin-bottom: 10px;
+}
+.service .single-service a:hover{
+    transition: 0.5s linear;
+    background: #333;
+}
+.fix-area{
+    background: beige;
+}
+.about{
+    /* margin-top: 25px; */
+    /* margin-bottom: 20px; */
+    vertical-align: middle;
+}
+.about .about-left{
+    width: 700px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.about .about-left h4,.about .about-manu h4{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.about .about-left p{
+    text-align: justify;
+    margin-bottom: 25px;
+    line-height: 1.4;
+    font-size: 20px;
+}
+.about .about-left a{
+    font-size: 25px;
+    padding: 15px 25px;
+}
+.about .about-left a:hover{
+    background: #dddddd;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+.about .about-manu{
+    margin-top: 40px;
+    float: left;
+    width: 280px;
+    padding: 0 20px;
+}
+.about .about-manu h4{}
+.about .about-manu ul{}
+.about .about-manu ul li{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+.about .about-manu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+.about .about-manu ul li a:hover{
+    transition: 0.3s linear;
+    color: tomato;
+}
+.about .about-manu ul li:last-child{
+    border-bottom: none;
+}
+.footer{
+    text-align: center;
+    background: black;
+    padding: 20px;
+    color: #fff;
+}
+.footer p{
+    font-size: 20px;
+}
+/* about page */
+.about-banner{
+    background-image: url(../img/about-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 120px 0;
+    position: relative;
+    z-index: 2;
+}
+.about-banner::after,.about-banner::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    opacity: .40;
+    z-index: -1;
+}
+.about-banner h2{
+    font-weight: 700;
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #fff;
+}
+/* service page */
+.services .title{
+    background: #fff;
+    color: #333;
+    padding: 40px 0px;
+}
+.services .service .single-service{
+    width: 311px;
+    float: left;
+    margin-left: 13px;
+    margin-right: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    padding: 9px;
+}
+.services .title h2{}
+.services .service-page .single-service{
+    width: 225px;
+    margin-bottom: 20px;
+}
+.service-page .single-service:nth-child(4), .service .single-service:last-child{
+    margin-right: 0;
+}
+.service-page .single-service:nth-child(5){
+    margin-left: 0;
+}
+.service-page .single-service:first-child,.service .single-service:first-child{
+    margin-left: 0;
+}
+.service-page .single-service .btn{
+    padding: 12px 20px;
+    font-size: 18px;
+    margin: 0 38px;
+    margin-bottom: 20px;
+}
+/* gallery  */
+.life{
+    text-align: center;
+    padding: 30px 0;
+    background: antiquewhite;
+    margin-top: 10px;
+}
+.life h2{
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.gallery{}
+.single-gallery{
+    float: left;
+    margin: 5px;
+    width: 242px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.gallery .single-gallery:nth-child(4),.gallery .single-gallery:last-child{
+    margin-right: 0;
+   
+}
+.gallery .single-gallery:nth-child(5),.gallery .single-gallery:first-child{
+    margin-left: 0;
+   
+}
+.single-gallery iframe{
+    width: 100%;
+}
+/* contact */
+.contact{
+    padding: 40px 0;
+}
+.contact .contact-form{
+    float: left;
+    width: 670px;
+    margin-right: 30px;
+}
+.contact .contact-form h4 ,.contact-address h4{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+.contact .contact-form form{
+    width: 100%;
+}
+.contact-form form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    height: 130px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.contact-form input[type="submit"]{
+    text-transform: uppercase;
+    border: 0;
+    background: tomato;
+    font-size: 24px;
+    color: #fff;
+    width: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-weight: 600;
+    font-style: italic;
+}
+.contact-form input[type="submit"]:hover{
+    transition:0.5s linear;
+    background-color: rgb(128 29 29);
+}
+.contact .contact-address{
+    float: left;
+    width: 300px;
+}
+.contact-address h4{}
+.contact-address ul{}
+.contact-address ul li{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.contact-address ul li:first-child{
+    text-transform: capitalize;
+}
+.contact-address ul li:nth-child(2){
+    text-transform: capitalize;
+}
+.contact-address ul li:last-child{
+    
+}
+.contact-address ul li span{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: italic;
+}
+.contact-address ul li a{}
+/* map */
+.map{margin-bottom: 30px;}
+.map iframe{
+    width: 100%;
+    border: 1px solid #ddd;
+    height: 300px;
+}

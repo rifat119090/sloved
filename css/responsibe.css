@@ -1,0 +1,203 @@
+@media only screen and (min-width:992px)and (max-width:1200px){
+    .area{
+        width: 970px;
+        margin: 0 auto;
+    }
+    .services .service .single-service {
+        width: 301px;
+        margin-right: 13px;
+    }
+    .about .about-left{
+        width: 644px;
+        float: left;
+    }
+    .service-page .single-service .btn {
+        padding: 10px 10px;
+    }
+    .services .service-page .single-service {
+        width: 22% !important;
+    }
+    .single-gallery {
+        width: 235px;
+    }
+    .contact .contact-form {
+        width: 630px;
+    }
+    .contact .contact-address {
+        width: 310px;
+    }
+}
+@media only screen and (min-width:768px)and (max-width:991px){
+    .area{
+        width: 750px;
+        margin: 0 auto;
+    }
+    .services .service .single-service {
+        width: 294px;
+        margin-right: 13px;
+    }
+    .about .about-left{
+        width: 644px;
+        float: left;
+    }
+    .header .logo{
+        width: 170px;
+   
+    }
+    .header .manu{
+
+        width: 551px;
+     
+    }
+    .services .service .single-service {
+        width: 231px;
+        margin-right: 10px;
+    }
+    .single-service h4 {
+ 
+        font-size: 21px;
+        margin: 10px;
+
+    }
+    .single-service a {
+        margin: auto 4px;
+        margin-bottom: 7px;
+    }
+    .about .about-left {
+        width: 535px;
+
+    }
+    .about .about-manu {
+
+        width: 200px;
+ 
+    }
+    .about .about-left h4, .about .about-manu h4 {
+        font-size: 18px;
+       
+    }
+    .about .about-left p {
+        
+        font-size: 15px;
+    }
+    .about .about-manu ul li a {
+        font-size: 15px;
+
+    }
+    .about .about-left a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .gallery .single-gallery:nth-child(4), .gallery .single-gallery:last-child {
+        margin-right: 7px;
+    }
+    .single-gallery {
+        width: 241px;
+    }
+    .contact .contact-form {
+        width: 58%;
+        margin-right: 15px;
+    }
+    .contact .contact-address {
+        width: 40%;
+    }
+    .contact .contact-form h4, .contact-address h4 {
+        font-size: 30px;
+    }
+    .contact-address ul li:first-child {
+        text-transform: uppercase;
+    }
+    .contact-address ul li {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width:767px){
+    .area {
+        width: 320px;
+    }
+    .header .logo {
+        width: 300px;
+
+    }
+
+ .header .manu ul {
+            margin-top: -6px;
+            text-align: center;
+ }
+ .header .manu ul li {
+	display: block;
+
+}
+    .header .manu {
+        width: 100%;
+
+    }
+    .services .tittle {
+
+        padding: 20px 0;
+    }
+    .services .tittle h2 {
+        font-size: 33px;
+        line-height: 1.4;
+    }
+    .services .service .single-service {
+        width: 100%;
+    }
+ .single-service h4 {
+         font-size: 28px;
+}
+.about .about-left {
+	width: 100%;
+}
+.about .about-left h4, .about .about-manu h4 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.about .about-left p {
+	font-size: 17px;
+}
+.about .about-left a {
+	font-size: 20px;
+	padding: 10px 20px;
+}
+.about .about-manu {
+	margin-top: 20px;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+}
+.about .about-manu ul li a {
+
+	font-size: 17px;
+
+}
+.contact .contact-form {
+	float: left;
+	width: 100%;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.contact .contact-form h4, .contact-address h4 {
+	font-size: 30px;
+}
+.contact-address ul li {
+	font-size: 21px;
+}
+.contact-address ul li:first-child {
+	text-transform: uppercase;
+}
+.single-gallery {
+	width: 100%;
+	margin-bottom: 5px;
+	margin-top: 10px;
+}
+
+}
+@media only screen and (min-width:480px)and (max-width:767px){
+    .area {
+        width: 550px
+    }
+    .header .logo {
+        width: 448px;
+    }
+}
